@@ -1,0 +1,25 @@
+{
+  "name": "Mốc – Trung tâm thời gian & Không gian cá nhân",
+  "short_name": "Mốc",
+  "description": "Trung tâm quản lý thời gian, âm lịch, đếm ngược, thói quen và hồ sơ cá nhân.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFEBD9",
+  "theme_color": "#FFEBD9",
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
