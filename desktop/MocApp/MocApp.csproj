@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Mốc</AssemblyName>
+    <Product>Mốc – Trung tâm thời gian</Product>
+    <AssemblyTitle>Mốc – Trung tâm thời gian &amp; Không gian cá nhân</AssemblyTitle>
+    <Company>Mốc Personal Hub</Company>
+    <Version>2.0.0</Version>
+    <FileVersion>2.0.0.0</FileVersion>
+    <ApplicationIcon>moc.ico</ApplicationIcon>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2903.40" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="moc.ico" LogicalName="moc.ico" />
+    <EmbeddedResource Include="..\..\index.html" LogicalName="index.html" />
+    <EmbeddedResource Include="..\..\icon.svg" LogicalName="icon.svg" />
+    <EmbeddedResource Include="..\..\manifest.webmanifest" LogicalName="manifest.webmanifest" />
+  </ItemGroup>
+</Project>
