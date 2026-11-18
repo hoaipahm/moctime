@@ -1,0 +1,9 @@
+# Build & temp artifacts
+desktop/MocApp/bin/
+desktop/MocApp/obj/
+desktop/publish/
+android/build/
+
+# Signing secrets & legacy backup
+android/*.keystore
+Mốc – Trung tâm thời gian (1).html
