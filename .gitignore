@@ -3,6 +3,19 @@ desktop/MocApp/bin/
 desktop/MocApp/obj/
 desktop/publish/
 android/build/
+**/node_modules/
+personal/dist/
+personal/test-results/
+personal/playwright-report/
+personal/android/build/
+personal/android/local.properties
+personal/artifacts/
+personal/qa/
+**/*.keystore
+**/*.jks
+**/.env
+**/.env.local
+**/__pycache__/
 
 # Signing secrets & legacy backup
 android/*.keystore
